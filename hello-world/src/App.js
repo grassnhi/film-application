@@ -18,12 +18,15 @@ import EventBind4 from './components/EventBind4';
 import ParentCom1 from './components/ParentCom1';
 import ParentCom2 from './components/ParentCom2';
 import UserGreet from './components/UserGreet';
+import NameList from './components/NameList';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <UserGreet/>
+        <NameList/>
         {/* <ParentCom1/>
         <ParentCom2/> */}
         {/* <EventBind/> */}
