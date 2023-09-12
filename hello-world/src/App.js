@@ -19,14 +19,26 @@ import ParentCom1 from './components/ParentCom1';
 import ParentCom2 from './components/ParentCom2';
 import UserGreet from './components/UserGreet';
 import NameList from './components/NameList';
-
+import KeyAnti from './components/KeyAnti';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
+import Form from './components/Form'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserGreet/>
-        <NameList/>
+        <Form/>
+        {/* <Stylesheet primary={false}/>
+        <Stylesheet primary={true}/>
+        <Inline/>
+        <h1 className='error'>Error</h1>
+        <h1 className={styles.success}>Success</h1> */}
+        {/* <KeyAnti/> */}
+        {/* <UserGreet/>
+        <NameList/> */}
         {/* <ParentCom1/>
         <ParentCom2/> */}
         {/* <EventBind/> */}
